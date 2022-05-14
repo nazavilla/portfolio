@@ -16,7 +16,7 @@ body, html{
 
 .bgimg {
     background-image: url(/images/dunas.jpg);
-    filter: blur(8px);
+    filter: blur(3px);
     height: 100%;
     background-size: cover;
     background-position: center;
@@ -58,12 +58,14 @@ main{
 
 .desc{
     margin-top: 19px;
+    text-shadow: 1px 1px black;
+    color: #4e331c;
+    font-weight: bold;
 }
 
-.desc, .name{
-    color: #624227;
+.name{
+    color: #88582e;
     text-shadow: 1px 1px white;
-    font-weight: bold;
 }
 
 .card{
@@ -88,7 +90,7 @@ main{
 .projectMainT{
     text-shadow: 2px 2px black;
     text-align: center;
-        color: #a1b9d1;
+    color: #a1b9d1;
 }
 
 .project {
@@ -133,3 +135,21 @@ main{
     border-bottom: 1px solid;
 }
 
+@media screen and (max-height:768px) and (max-width: 1366px) {
+    main{padding: 0em 8em;
+    }
+    .subheader {
+        padding: 1.5em;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .perfil{
+        width: 12em;
+    }
+    .card {
+        padding: 0.5em;
+        margin: 0.7em 15em;
+}
+
+
+}
