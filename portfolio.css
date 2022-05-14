@@ -15,7 +15,7 @@ body, html{
 }
 
 .bgimg {
-    background-image: url(dunas.jpg);
+    background-image: url("dunas.jpg");
     filter: blur(3px);
     height: 100%;
     background-size: cover;
